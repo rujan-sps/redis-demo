@@ -16,5 +16,5 @@ Seed Databse
 Start app
 >npm start or npm run dev
 
-# Required Dependcies
+# Required Dependencies
 > Mongodb and Redis
