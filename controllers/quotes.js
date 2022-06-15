@@ -1,8 +1,8 @@
 const Quote = require("../models/Quote");
 const { redis } = require('../config/redisClient')
 
-// @desc      Get all users
-// @route     GET /api/v1/users
+// @desc      Get all quotes
+// @route     GET /api/v1/quotes
 // @access    Public
 exports.getQuotes = async (req, res, next) => {
     try {
